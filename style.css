@@ -1,0 +1,63 @@
+.container{
+   
+   color:rgb(150, 138, 138);
+   border-radius: 4px;
+   
+   }
+
+   body {
+     font-family: Arial, Helvetica, sans-serif; 
+    box-sizing: border-box;
+    border:30px solid rgb(99, 182, 83);
+    margin: 0px 600px;
+    padding: 28px;
+    
+   }
+
+   input[type=text], select, textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing:content-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    color: rgb(150, 138, 138);
+    resize: vertical;
+  }
+
+  button[type=submit] {
+    background-color: rgb(99, 182, 83);
+    color: white;
+    padding: 12px 150px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button[type=submit]:hover {
+    background-color: #265729;}
+
+    #wrapper {
+       position:fixed;
+      
+    }
+
+    .head{
+        color: rgb(150, 138, 138);
+        font-size: 35px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        resize: vertical;
+        padding: 12px 12px 5px 19px;
+    }
+    .sec{
+        color: rgb(150, 138, 138);
+  font-size: 16px;
+  box-sizing: border-box;
+  resize: vertical;
+  padding: 0px 12px 5px 18px;}
+
+    .botom{
+        position: relative;
+        text-align: center;
+    }
